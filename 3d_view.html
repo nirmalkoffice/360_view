@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>3D view</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+       <script src="js/js-cloudimage-360-view.min.js"></script>
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+
+</head>
+<body>
+    
+  
+              <div class="uk-position-center-left uk-margin-left uk-position-small">
+              <div
+                    class="cloudimage-360"
+                    data-folder="D:/electron/product/img/"
+                    data-filename="pic_{index}.jpg">
+  
+              </div>  
+              </div>
+
+              <div class="uk-position-center uk-position-small">
+              <div
+                    class="cloudimage-360"
+                    data-folder="D:/electron/product/img2/"
+                    data-filename="{index}.jpg">
+  
+              </div>  
+              </div>
+
+              <div class="uk-position-center-right uk-margin-right uk-position-small">
+              <div
+                    class="cloudimage-360"
+                    data-folder="D:/electron/product/img3/"
+                    data-filename="{index}.jpg">
+  
+              </div>  
+              </div>         
+   
+      
+
+
+
+
+
+
+    <script>
+          window.CI360.init();
+    </script>
+</body>
+</html>
